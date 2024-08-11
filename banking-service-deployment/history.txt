@@ -1,0 +1,84 @@
+    1  clear
+    2  sudo apt-get update
+    3  sudo apt-get upgrade
+    4  clear
+    5  sudo apt-get install docker.io
+    6  clear
+    7  docker ps
+    8  docker --version
+    9  systemctl status docker
+   10  docker --version
+   11  clear
+   12  docker ps
+   13  whoiami
+   14  whoami
+   15  cat /etc/group
+   16  docker ps
+   17  sudo usermod -aG docker $USER
+   18  docker ps
+   19  sudo reboot
+   20  docker ps
+   21  sudo systemctl enable docker
+   22  sudo apt-get install docker-compose
+   23  docker compose version
+   24  docker compose --version
+   25  docker-compose --version
+   26  sudo chmod +x /usr/local/bin/docker-compose
+   27  pwd
+   28  ls
+   29  cd ..
+   30  ls
+   31  cd ubuntu/
+   32  ls
+   33  pwd
+   34  clear
+   35  docker ps
+   36  docker inspect mysql-container 
+   37  docker ps 
+   38  docker ps -a
+   39  docker logs banking-service-container 
+   40  docker ps
+   41  docker exec -it mysql-container mysql -u root -p
+   42  cat docker-compose.yml 
+   43  pwd
+   44  ld
+   45  ls
+   46  docker ps -a
+   47  docker compose down
+   48  docker images
+   49  docker rm banking-service
+   50  docker rmi banking-service
+   51  docker mages
+   52  docker images
+   53  ls
+   54  rm -r banking-service-0.0.1-SNAPSHOT.jar 
+   55  ls
+   56  nano Dockerfile 
+   57  docker build -t baking-service:v1 .
+   58  docker images
+   59  rm docker-compose.yml 
+   60  nano docker-compose.yml
+   61  docker compose up -d
+   62  nano docker-compose.yml 
+   63  docker compose up -d
+   64  docker login
+   65  docker compose up -d
+   66  cat docker-compose.yml 
+   67  docker images
+   68  docker rmi banking-service-0.0.1-SNAPSHOT.jar 
+   69  docker rmi baking-service:v1 
+   70  docker images
+   71  docker build -t banking-service:v1 .
+   72  docker images
+   73  nano docker-compose.yml 
+   74  docker compose up -d
+   75  docker ps
+   76  clear
+   77  docker images
+   78  docker ps
+   79  clear
+   80  pwd
+   81  ls
+   82  docker images
+   83  docker ps
+   84  history >> history.txt
